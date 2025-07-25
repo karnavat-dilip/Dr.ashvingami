@@ -441,6 +441,7 @@ function Header() {
                                             src={companylogo}
                                             alt="logo not available"
                                             width='100'
+                                            style={{'mix-blend-mode': 'darken'}}
                                             className="mobile-logo-img"
                                         />
 

@@ -14,9 +14,6 @@ import Value from '../../Assets/values.jpg'
 import OurMission from '../../Assets/mission.jpg'
 import OurVision from '../../Assets/vision.jpg'
 import about from '../../Assets/ashvingami_assets/Dr.Ashvin-Gami.jpg'
-
-
-
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './About.css'

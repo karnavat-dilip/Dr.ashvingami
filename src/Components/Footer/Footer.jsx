@@ -18,10 +18,10 @@ function Footer() {
         <>
             <footer className='Footer'>
                 <div className='container'>
-                    <div className='Footer-child' data-aos="fade-down">
+                    <div className='Footer-child' >
                         <div className='section-child' >
                             <div className='section-subchild'>
-                                <img src={companylogo} width='150' alt='LOGO' />
+                                <img src={companylogo} style={{'mix-blend-mode': 'darken'}} width='150' alt='LOGO' />
                                 <p>Dr. Ashvin Gami’s Urethral and hypospadias Clinic,  A branch of Kidneycare hospital Palanpur
                                     Two decades of expertise in Reconstructive Urology </p>
                                 <div className='customer-service'>

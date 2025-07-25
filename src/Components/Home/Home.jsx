@@ -5,32 +5,18 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Banner1 from '../../Assets/ashvingami_assets/Tanu-Complex.jpg'
-import 'animate.css'
 import Banner2 from '../../Assets/ashvingami_assets/TEJS1124.jpg'
-import Banner3 from '../../Assets/greenliving/website photos/3.jpg'
-import Banner4 from '../../Assets/greenliving/website photos/4.jpg'
-import Banner5 from '../../Assets/greenliving/website photos/5.jpg'
-import Banner6 from '../../Assets/greenliving/website photos/6.jpg'
-import Banner7 from '../../Assets/greenliving/website photos/7.jpg'
-import Banner8 from '../../Assets/greenliving/website photos/8.jpg'
-import Banner9 from '../../Assets/greenliving/website photos/9.jpg'
-import Banner10 from '../../Assets/greenliving/sliding/13.jpg'
-import Banner11 from '../../Assets/greenliving/sliding/14.jpg'
-import Banner12 from '../../Assets/greenliving/sliding/15.jpg'
-import welcome from '../../Assets/greenliving/welcome.png'
+import Banner3 from '../../Assets/ashvingami_assets/banner1.jpg'
+import Banner4 from '../../Assets/ashvingami_assets/banner2.jpg'
+import Banner5 from '../../Assets/ashvingami_assets/banner3.jpg'
+import 'animate.css'
+
 
 import profile_img from '../../Assets/ashvingami_assets/Hypospadias-Surgery.jpg'
 import profile_img2 from '../../Assets/ashvingami_assets/urethral-stricture.jpg'
 import Drprofile from '../../Assets/ashvingami_assets/Dr.Ashvin-Gami.jpg'
-import companyvideo from '../../Assets/greenliving/companyvideo.mp4'
-import companyvideo1 from '../../Assets/greenliving/video2.mp4'
-import companyvideo2 from '../../Assets/greenliving/video3.mp4'
-import companyvideo3 from '../../Assets/greenliving/video4.mp4'
-import companyvideo4 from '../../Assets/greenliving/video5.mp4'
-import companyvideo5 from '../../Assets/greenliving/video6.mp4'
 
 import CountUp from 'react-countup';
-import ScrollTrigger from 'react-scroll-trigger';
 import './Home.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -41,9 +27,7 @@ import type3 from '../../Assets/greenliving/type3cylinder.jpg'
 import type4 from '../../Assets/greenliving/type4cylinder.png'
 import Engine_Carbon_Cleaning from '../../Assets/greenliving/web photo 2/2.jpg'
 import Car_Detailing from '../../Assets/greenliving/web photo 2/3.jpg'
-import cngretest from '../../Assets/greenliving/web photo 2/1.jpg'
-import { Chart } from "react-google-charts";
-import { Link } from 'react-router-dom';
+
 
 function AboutUs() {
   return (
@@ -203,6 +187,10 @@ function Home() {
             >
               <SwiperSlide><img src={Banner1} id='img1' /></SwiperSlide>
               <SwiperSlide><img src={Banner2} id='img2' /></SwiperSlide>
+              <SwiperSlide><img src={Banner3} id='img2' /></SwiperSlide>
+              <SwiperSlide><img src={Banner4} id='img2' /></SwiperSlide>
+              <SwiperSlide><img src={Banner5} id='img2' /></SwiperSlide>
+
 
 
             </Swiper>
